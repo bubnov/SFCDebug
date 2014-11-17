@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/SFCDebug.svg?style=flat)](http://cocoadocs.org/docsets/SFCDebug)
 [![Platform](https://img.shields.io/cocoapods/p/SFCDebug.svg?style=flat)](http://cocoadocs.org/docsets/SFCDebug)
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 SFCDebug is available through [CocoaPods](http://cocoapods.org). To install
