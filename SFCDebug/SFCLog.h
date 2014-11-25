@@ -12,7 +12,7 @@ static NSArray *_SFCLogArrayMake(NSArray *array, NSUInteger count) {
    NSRange range = NSIntersectionRange(NSMakeRange(0, count), NSMakeRange(0, array.count));
    NSArray *subarray = [array subarrayWithRange:range];
    if (subarray.count && subarray.count < array.count) {
-      return [subarray arrayByAddingObject:[NSString stringWithFormat:@"(...and %i more...)", (array.count - subarray.count)]];
+      return [subarray arrayByAddingObject:[NSString stringWithFormat:@"(...and %lu more...)", (array.count - subarray.count)]];
    } else {
       return subarray;
    }

@@ -65,7 +65,7 @@ static NSInteger _logLevel = LOG_LEVEL_OFF;
 
 + (void)addLogger:(id<DDLogger>)logger withID:(SFCLoggerID)ID {
    [self _tokensForLoggerID:ID];
-   [self addLogger:logger withLogLevel:ID];
+   [self addLogger:logger withLogLevel:(int)ID];
 }
 
 + (NSArray *)allRegisteredLoggerIDs {
